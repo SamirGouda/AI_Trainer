@@ -3,7 +3,7 @@ import numpy as np
 import pose_estimation_module as pm
 
 
-cap = cv2.VideoCapture('ai_trainer/curls2.mp4')
+cap = cv2.VideoCapture(0)
 detector = pm.PoseEstimation()
 
 prev_time = 0

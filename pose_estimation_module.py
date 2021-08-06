@@ -62,6 +62,7 @@ class PoseEstimation:
                         cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
         return angle
 
+
 def main():
     cap = cv2.VideoCapture('pose_videos/2.mp4')
     prev_time = 0
